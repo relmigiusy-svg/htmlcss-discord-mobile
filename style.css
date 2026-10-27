@@ -1,0 +1,133 @@
+/* RESETTARE LO STILE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* simuliamo uno smartphone */
+html {
+    background-color: white;
+}
+
+body {
+    width: 512px;
+    border: 1px dashed gray;
+    background-image: url("./htmlcss-discord-mobile/img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+/*IMPOSTIAMO L'HEADER */
+
+header {
+    padding: 10px 0px;
+    border: none;
+}
+
+.content {
+    padding: 20px 40px;
+
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card {
+    padding: 20px;
+    min-height: 160px;
+    margin-bottom: 20px;
+    margin: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(138, 40, 231);
+}
+
+.card h2 {
+    font-size: 40px;
+    font-family: 'Sigmar', cursive;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+
+}
+
+.card p {
+    font-family: 'Onest';
+    font-size: 20px;
+    text-align: left;
+    color: white;
+
+}
+
+/* width:100% me lo mette nella card */
+
+.card img {
+    margin-bottom: 0px;
+    position: relative;
+    top: 0;
+    right: 0;
+    translate: 10% -50%;
+    width: 100px;
+    height: 100px;
+    ;
+}
+
+.card video {
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+.presentazione {
+    color: white;
+    margin-bottom: 4px;
+
+}
+
+.presentazione h2 {
+    font-size: 40px;
+    font-family: 'Sigmar', cursive;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+/* trovare il font corretto DM SANS" */
+
+.presentazione p {
+    font-family: 'Onest';
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.bottoni {
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Onest'
+}
+
+.btn-bianco {
+    background-color: antiquewhite;
+}
+
+.btn-blu {
+    background-color: rgb(113, 36, 255);
+}
