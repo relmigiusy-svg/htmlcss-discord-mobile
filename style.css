@@ -47,7 +47,10 @@ header {
     margin: 30px;
     border: none;
     border-radius: 30px;
-    background-color: rgb(138, 40, 231);
+    background: linear-gradient(to bottom,
+            rgba(131, 11, 236, 0.901),
+            rgba(131, 11, 236, 0));
+
 }
 
 .card h2 {
@@ -125,9 +128,14 @@ button {
 }
 
 .btn-bianco {
-    background-color: antiquewhite;
+    background-color: rgb(250, 250, 250);
+    font-size: 18px;
+    border-radius: 15px;
 }
 
 .btn-blu {
-    background-color: rgb(113, 36, 255);
+    color: white;
+    background-color: rgba(131, 11, 236, 0.901);
+    font-size: 18px;
+    border-radius: 15px;
 }
