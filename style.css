@@ -15,7 +15,7 @@ html {
 body {
     width: 512px;
     border: 1px dashed gray;
-    background-image: url("./htmlcss-discord-mobile/img/background.png");
+    background-color: #191d7b;
     background-size: cover;
     background-repeat: no-repeat;
 
